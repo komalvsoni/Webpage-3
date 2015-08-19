@@ -1,0 +1,55 @@
+* { padding: 0; margin: 0; }
+
+.cf	{ clear: both; }
+
+a { color: black; text-decoration: none; }
+
+.container .selected { background: darkgreen; padding: 5px 10px; border-radius: 5px; color: white; }
+
+p { font-size: 18px; }
+
+
+ul { list-style-type: none;}
+
+body { font-family: 'Josefin Sans', sans-serif; }
+
+.container { max-width: 1200px;  margin: 20px auto; border: 2px solid black; padding: 10px; }
+
+.container .block1 { background-image: url('header-bg.jpg'); }
+
+.container  .block1 .block1-left  { float: left; margin: 60px;}
+
+.container .block1 .block1-right  { float: right; margin: 30px; }
+
+.container  .block1 .block1-right ul li { display: inline-block; margin: 40px 20px 30px 20px; font-size: 20px;}
+
+.container  .block1 .block1-2 .block1-heading { float: left; margin-top: 70px; font-size: 35px; color: white; }
+
+.container  .block1 .block1-2 .block1-img { float: right;  }
+
+.container .block1-2{ padding: 50px; }
+
+.container .block2 h3 { padding-top: 20px; }
+
+.container .block2 p { padding-top: 20px; }
+
+.container .block2 .block2-left,
+
+.container .block2 .block2-center,
+
+.container .block2 .block2-right { display: inline-block; width: 360px; margin: 80px 15px 80px 15px; text-align: center; }
+
+.container .block2 .block2-right img { width: 167px; }
+
+.container .block3 { background-image: url('portfolio-bg.jpg');}
+
+.container .block3 .block3-center { text-align: center; padding-top: 40px; color: white;  }
+
+.container .block3 .block3-nav ul li { display: inline-block; padding-bottom: 80px; padding-top: 30px; font-size: 20px; padding: 50px; color: white; }
+
+.container .block3 h1 { font-weight: bold; }
+
+.container .block3 { text-align: center; }
+
+.container .block3 .block3-nav ul li a {  color: white; }
+
